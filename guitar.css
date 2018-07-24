@@ -1,0 +1,226 @@
+body{
+    margin: 0px auto;
+    filter: contrast(130%);
+    font-family: sans-serif;
+    color: white;
+}
+@font-face{
+    font-family: 'Lovelo';
+    src: url('Lovelo Line Bold.otf');
+}
+@font-face{
+    font-family: 'Bloggerbold';
+    src: url('Blogger Sans-Bold.otf');
+}
+@font-face{
+    font-family: 'Blogger';
+    src: url('Blogger Sans.otf');
+}
+@font-face{
+    font-family: 'Brandon';
+    src: url('Brandon.otf');
+}
+#total-recall{
+    background-image: url(acbg.jpg);
+    width: 1349px;
+    height: 3080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#top-name{
+    margin-left: 600px;
+    position: absolute;
+}
+#the{
+    color: white;
+    font-size: 65%;
+    margin-left: 12px;
+    position: absolute;
+    margin-top: -33px;
+    font-family: 'Blogger';
+}
+#outline{
+    color: white;
+    font-weight: bold;
+    font-size: 140%;
+    position: absolute;
+    margin-top: -30px;
+    font-family: 'Bloggerbold';
+}
+#blue-div{
+    width: 1265px;
+    height: 700px;
+    background-color: rgb(8,40,74);
+    position: ;
+    margin-top: 41px;
+    margin-left: 41px;
+}
+#top-border{
+    width: 1150px;
+    height: 10px;
+    background-color: rgb(247,93,100);
+    position: absolute;
+    margin-left: 57.5px;
+    margin-top: 57.5px;
+}
+#left-border{
+    width: 10px;
+    height: 500px;
+    background-color: rgb(247,93,100);
+    position: absolute;
+    margin-left: 57.5px;
+    margin-top: 57.5px;
+}
+#right-border{
+    width: 10px;
+    height: 500px;
+    background-color: rgb(247,93,100);
+    position: absolute;
+    margin-left: 1197.5px;
+    margin-top: 57.5px;
+}
+#date{
+    margin-left: 487.5px;
+    margin-top: 100px;
+    position: absolute;
+    font-family: 'Blogger';
+    font-size: 140%;
+}
+#datee{
+    color: deeppink;
+}
+#art{
+    background: url(abstract.png);
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: 430px;
+    margin-top: -20px;
+}
+#main-header{
+    width: 290px;
+    height: 130px;
+    position: absolute;
+    margin-left: 487.5px;
+    margin-top: 160px;
+    font-family: 'Bloggerbold';
+    font-size: 250%;
+    text-align: justify;
+    line-height: 40px;
+}
+#mini-header{
+    width: 430px;
+    height: 60px;
+    position: absolute;
+    font-family: 'Blogger';
+    font-size: 110%;
+    margin-top: 300px;
+    margin-left: 487.5px;
+}
+#the-three{
+    width: 1050px;
+    height: 150px;
+    margin-top: 430px;
+    position: absolute;
+    margin-left: 107.5px;
+    display: flex;
+    justify-content: space-between;
+}
+.child1{
+    width: 280px;
+    height: 110px;
+    font-family: 'Blogger';
+    font-size: 130%;
+    padding: 20px 10px;
+    text-align: center;
+}
+#gap-bg{
+    background-image: url(dasblonde.jpg);
+    height: 860px;
+    width: 1265px;
+    position: absolute;
+    background-size: cover;
+    margin-left: 41px;
+}
+#contain1{
+    width: 295px;
+    height: 150px;
+    margin-left: 485px;
+    margin-top: 30%;
+}
+#gold1{
+    font-weight: bold;
+    font-family: 'Bloggerbold';
+    font-size: 230%;
+}
+#gap1{
+    font-family: 'Lovelo';
+    font-size: 300%;
+}
+#ode1{
+    font-family: 'Blogger';
+    font-weight: 90%;
+}
+#contain1 button{
+    margin-left: 60px;
+    margin-top: 250px;
+    padding: 15px 40px;
+    border: 0;
+    font-family: 'Blogger';
+    font-size: 110%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+    transition: 0.3s ease-in-out;
+}
+#contain1 button:hover{
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+#rebecca{
+    width: 1265px;
+    height: 475px;
+    background-color: rgb(99,24,140);
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 860px;
+}
+#power1{
+    width: 290px;
+    height: 110px;
+    font-family: 'Brandon';
+    font-weight: bold;
+    font-size: 500%;
+    position: absolute;
+    margin-left: 487.5px;
+    margin-top: 10px;
+    color: #e91e63;
+}
+#those-pics{
+    position: absolute;
+    width: 720px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 87px;
+    margin-left: 272.5px;
+}
+#those-pics img{
+    transition: 0.2s ease;
+    filter: saturate(0%);
+}
+#those-pics img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+    filter: saturate(100%);
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+    #top-name{
+        margin-left: 200px;
+    }
+}
